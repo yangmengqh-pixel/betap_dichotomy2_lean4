@@ -1,0 +1,13 @@
+name = "walk_dimensions"
+defaultTargets = ["WalkDimensions"]
+# These sources use Lean’s legacy import format.
+allowNonModules = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "31ce06eaadf4a200c0e1407c5f10953cf606b8f8"
+
+[[lean_lib]]
+name = "WalkDimensions"
+defaultFacets = ["elabArts"]
